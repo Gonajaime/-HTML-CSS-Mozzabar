@@ -116,37 +116,53 @@
     </div>
     <div id="reservas">
       <h2>Reservas</h2>
-      <p>Personas</p>
-      <select name="Personas" value="Personas">
-        <option value="1Persona">1 Persona</option>
-        <option value="2Personas">2 Personas</option>
-        <option value="3Personas">3 Personas</option>
-        <option value="4Personas">4 Personas</option>
-        <option value="5Personas">5 Personas</option>
-        <option value="6Personas">6 Personas</option>
-        <option value="+6Personas">+6 Personas</option>
-      </select>
-      <p>Hora</p>
-      <select name="horas" value="Horas">
-        <option value="horas">Seleccione una hora</option>
-        <option value="horas">13:00</option>
-        <option value="horas">13:30</option>
-        <option value="horas">14:00</option>
-        <option value="horas">14:30</option>
-        <option value="horas">15:00</option>
-        <option value="horas">15:30</option>
-      </select>
-      <p>Tipo de mesa</p>
-      <select name="TipoDeMesa" value="Selecione Tipo De Mesa">
-        <option value="Selecione_Tipo-De Mesa">Seleccione tipo de mesa</option>
-        <option value="Selecione Tipo De Mesa">Terraza</option>
-        <option value="Selecione Tipo De Mesa">interior</option>
-        <option value="Selecione Tipo De Mesa">redonda</option>
-      </select>
-      <button>Reservar</button>
-      <p>Si no encuentra disponibilidad, apúntese en la lista de espera.</p>
-      <button>Lista de espera</button>
-      <button>Solicitud de grupo</button>
+      <div class="reservasbox">
+        <p>Personas</p>
+        <select name="Personas" value="Personas">
+          <option value="1Persona">1 Persona</option>
+          <option value="2Personas">2 Personas</option>
+          <option value="3Personas">3 Personas</option>
+          <option value="4Personas">4 Personas</option>
+          <option value="5Personas">5 Personas</option>
+          <option value="6Personas">6 Personas</option>
+          <option value="+6Personas">+6 Personas</option>
+        </select>
+        <p>Hora</p>
+        <select name="horas" value="Horas">
+          <option value="horas">Seleccione una hora</option>
+          <option value="horas">13:00</option>
+          <option value="horas">13:30</option>
+          <option value="horas">14:00</option>
+          <option value="horas">14:30</option>
+          <option value="horas">15:00</option>
+          <option value="horas">15:30</option>
+        </select>
+        <p>Tipo de mesa</p>
+        <select
+          name="TipoDeMesa"
+          class="tipoDeMesa"
+          value="Selecione Tipo De Mesa"
+        >
+          <option value="Selecione_Tipo-De Mesa">
+            Seleccione tipo de mesa
+          </option>
+          <option value="Selecione Tipo De Mesa">Terraza</option>
+          <option value="Selecione Tipo De Mesa">interior</option>
+          <option value="Selecione Tipo De Mesa">redonda</option>
+        </select>
+        <button>Reservar</button>
+        <p>Si no encuentra disponibilidad, apúntese en la lista de espera.</p>
+        <button>Lista de espera</button>
+        <button>Solicitud de grupo</button>
+      </div>
+      <div class="reservas-info">
+        <h1>mozabar</h1>
+        <h3>food & drinks</h3>
+        <p>Conde de Peñalver 64</p>
+        <p>28006 - Madrid</p>
+        <p>Abrimos de lunes a domingo</p>
+        <p>de 07:30 a 01:30</p>
+      </div>
     </div>
     <div id="blog">blog</div>
     <div id="direccion">direccion</div>

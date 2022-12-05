@@ -115,8 +115,23 @@ a:active {
     background-color: aliceblue;
 }
 #reservas {
+  display: flex;
+    justify-content: space-evenly;
   height: 100%;
-  background-color: rgb(243, 232, 232);
+  background-image: url(https://th.bing.com/th/id/R.4d85614e176c135d7dcd796f85b04731?rik=ejAisv1GEi5mAg&pid=ImgRaw&r=0);
+}
+#reservas h2{
+  text-align: center;  
+  padding-top: 2rem;
+  text-transform: uppercase;
+  color: white;
+}
+.reservasbox{
+  color: white;
+  font-size: 1.72rem;
+}
+.tipoDeMesa{
+  margin-bottom: 2rem;
 }
 #blog {
   height: 100%;
