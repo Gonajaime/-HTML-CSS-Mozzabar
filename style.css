@@ -58,36 +58,35 @@ a:active {
   align-items: center;
 }
 .concepto-texto {
-    width: 35%;
-    height: auto;    
-    text-align: center;
-    background-color: rgb(0, 0, 5);
-    padding: 2rem;
+  width: 35%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(0, 0, 5);
+  padding: 2rem;
 }
 
-.concepto-texto h1, .concepto-texto p {
-    color: aliceblue;
+.concepto-texto h1,
+.concepto-texto p {
+  color: aliceblue;
 }
-.concepto-texto p{
-    margin: 5% 5% 0 5%;
+.concepto-texto p {
+  margin: 5% 5% 0 5%;
 }
 
 #parrilla {
   background-color: rgb(93, 129, 33);
-  
 }
-.imagen img{
-    width: 100%;
+.imagen img {
+  width: 100%;
 }
-.galeria{
-    background-color: rgb(176, 189, 155);
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 1rem;
-    row-gap: 1rem;
-    padding: 3%;
-    
+.galeria {
+  background-color: rgb(176, 189, 155);
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+  padding: 3%;
 }
 #carta {
   height: 100%;
@@ -95,42 +94,53 @@ a:active {
   text-transform: uppercase;
 }
 #carta h1 {
-    text-align: center;
+  text-align: center;
 }
 #carta ul {
-    text-decoration: underline;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 1rem 25rem;
+  text-decoration: underline;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem 25rem;
 }
 
 .menu {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    line-height: 4rem;
-    color: black;  
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  line-height: 4rem;
+  color: black;
 }
-.salados, .salados-precio, .dulces, .dulces-precio, #carta h1,  .carta-nav {
-    background-color: aliceblue;
+.salados,
+.salados-precio,
+.dulces,
+.dulces-precio,
+#carta h1,
+.carta-nav {
+  background-color: aliceblue;
 }
 #reservas {
   display: flex;
-    justify-content: space-evenly;
   height: 100%;
   background-image: url(https://th.bing.com/th/id/R.4d85614e176c135d7dcd796f85b04731?rik=ejAisv1GEi5mAg&pid=ImgRaw&r=0);
+  flex-direction: column;
+  justify-content: space-between;
+    align-items: center;
 }
-#reservas h2{
-  text-align: center;  
+#reservas h2 {
+  text-align: center;
   padding-top: 2rem;
   text-transform: uppercase;
   color: white;
 }
-.reservasbox{
+.reservasbox {
   color: white;
   font-size: 1.72rem;
+  max-width: 30%;
 }
-.tipoDeMesa{
+.reservas-info {
+  color: white;
+}
+.tipoDeMesa {
   margin-bottom: 2rem;
 }
 #blog {
