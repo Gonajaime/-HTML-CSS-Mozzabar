@@ -119,12 +119,8 @@ a:active {
   background-color: aliceblue;
 }
 #reservas {
-  display: flex;
   height: 100%;
   background-image: url(https://th.bing.com/th/id/R.4d85614e176c135d7dcd796f85b04731?rik=ejAisv1GEi5mAg&pid=ImgRaw&r=0);
-  flex-direction: column;
-  justify-content: space-between;
-    align-items: center;
 }
 #reservas h2 {
   text-align: center;
@@ -132,7 +128,13 @@ a:active {
   text-transform: uppercase;
   color: white;
 }
-.reservasbox {
+.reservasbox{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.reservasoption {
   color: white;
   font-size: 1.72rem;
   max-width: 30%;
@@ -144,18 +146,77 @@ a:active {
   margin-bottom: 2rem;
 }
 #blog {
-  height: 100%;
-  background-color: black;
+  background-color: rgb(245, 239, 239);
+}
+#blog h2{
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 3rem;
+}
+.blogbox{
+  display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.blogbutton{
+  padding-bottom: 4rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+.button1 {
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: rgb(194, 151, 33);
+  color: white;
+  padding: 20px;
+  border: none;
 }
 #direccion {
-  height: 100%;
+  height: 58%;
   background-color: rgb(36, 167, 58);
+  background-image: url(https://th.bing.com/th/id/OIP.GrH0SKWQjNg1yRHdkoBq4AHaEK?pid=ImgDet&rs=1);
+  background-size: cover;
+  overflow: hidden;
+}
+#direccion p {
+color:white;
+}
+.direccionbox{
+  text-align: center;
+}
+.contactbox{
+  display: flex;
+  justify-content: center;
 }
 #siguenos {
-  height: 100%;
-  background-color: rgb(185, 23, 23);
+  height: 42%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#siguenos p{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.siguenosbutton button{
+  font-size: 1rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  border-style: solid;
 }
 #footer {
-  height: 100%;
-  background-color: black;
+  height: 42%;
+  background-color: rgb(236, 236, 236);
+}
+#footer h4{
+  text-transform: uppercase;
+  padding-bottom: 10%;
+}
+.footerbox {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 5rem;
 }

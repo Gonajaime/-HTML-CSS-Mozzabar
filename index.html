@@ -117,56 +117,120 @@
     <div id="reservas">
       <h2>Reservas</h2>
       <div class="reservasbox">
-        <p>Personas</p>
-        <select name="Personas" value="Personas">
-          <option value="1Persona">1 Persona</option>
-          <option value="2Personas">2 Personas</option>
-          <option value="3Personas">3 Personas</option>
-          <option value="4Personas">4 Personas</option>
-          <option value="5Personas">5 Personas</option>
-          <option value="6Personas">6 Personas</option>
-          <option value="+6Personas">+6 Personas</option>
-        </select>
-        <p>Hora</p>
-        <select name="horas" value="Horas">
-          <option value="horas">Seleccione una hora</option>
-          <option value="horas">13:00</option>
-          <option value="horas">13:30</option>
-          <option value="horas">14:00</option>
-          <option value="horas">14:30</option>
-          <option value="horas">15:00</option>
-          <option value="horas">15:30</option>
-        </select>
-        <p>Tipo de mesa</p>
-        <select
-          name="TipoDeMesa"
-          class="tipoDeMesa"
-          value="Selecione Tipo De Mesa"
-        >
-          <option value="Selecione_Tipo-De Mesa">
-            Seleccione tipo de mesa
-          </option>
-          <option value="Selecione Tipo De Mesa">Terraza</option>
-          <option value="Selecione Tipo De Mesa">interior</option>
-          <option value="Selecione Tipo De Mesa">redonda</option>
-        </select>
-        <button>Reservar</button>
-        <p>Si no encuentra disponibilidad, apúntese en la lista de espera.</p>
-        <button>Lista de espera</button>
-        <button>Solicitud de grupo</button>
-      </div>
-      <div class="reservas-info">
-        <h1>mozabar</h1>
-        <h3>food & drinks</h3>
-        <p>Conde de Peñalver 64</p>
-        <p>28006 - Madrid</p>
-        <p>Abrimos de lunes a domingo</p>
-        <p>de 07:30 a 01:30</p>
+        <div class="reservasoption">
+          <p>Personas</p>
+          <select name="Personas" value="Personas">
+            <option value="1Persona">1 Persona</option>
+            <option value="2Personas">2 Personas</option>
+            <option value="3Personas">3 Personas</option>
+            <option value="4Personas">4 Personas</option>
+            <option value="5Personas">5 Personas</option>
+            <option value="6Personas">6 Personas</option>
+            <option value="+6Personas">+6 Personas</option>
+          </select>
+          <p>Hora</p>
+          <select name="horas" value="Horas">
+            <option value="horas">Seleccione una hora</option>
+            <option value="horas">13:00</option>
+            <option value="horas">13:30</option>
+            <option value="horas">14:00</option>
+            <option value="horas">14:30</option>
+            <option value="horas">15:00</option>
+            <option value="horas">15:30</option>
+          </select>
+          <p>Tipo de mesa</p>
+          <select
+            name="TipoDeMesa"
+            class="tipoDeMesa"
+            value="Selecione Tipo De Mesa"
+          >
+            <option value="Selecione_Tipo-De Mesa">
+              Seleccione tipo de mesa
+            </option>
+            <option value="Selecione Tipo De Mesa">Terraza</option>
+            <option value="Selecione Tipo De Mesa">interior</option>
+            <option value="Selecione Tipo De Mesa">redonda</option>
+          </select>
+          <button>Reservar</button>
+          <p>Si no encuentra disponibilidad, apúntese en la lista de espera.</p>
+          <button>Lista de espera</button>
+          <button>Solicitud de grupo</button>
+        </div>
+        <div class="reservas-info">
+          <h1>mozabar</h1>
+          <h3>food & drinks</h3>
+          <p>Conde de Peñalver 64</p>
+          <p>28006 - Madrid</p>
+          <p>Abrimos de lunes a domingo</p>
+          <p>de 07:30 a 01:30</p>
+        </div>
       </div>
     </div>
-    <div id="blog">blog</div>
-    <div id="direccion">direccion</div>
-    <div id="siguenos">siguenos</div>
-    <div id="footer">footer</div>
+    <div id="blog">
+      <h2>Blog</h2>
+      <section class="blogbox">
+        <div class="blogimg">
+          <img src="Images\blog1.png" />
+        </div>
+        <div class="blogimg">
+          <img src="Images\blog2.png" />
+        </div>
+        <div class="blogimg">
+          <img src="Images\blog3.png" />
+        </div>
+      </section>
+      <div class="blogbutton">
+        <button class="button1">ver todas las entradas</button>
+      </div>
+    </div>
+    <div id="direccion">
+      <div class="direccionbox">
+        <img class="direccionimg" src="Images\direccionLogo.png" />
+        <p>ven cuando quieras</p>
+      </div>
+      <div class="contactbox">
+        <div class="contact1">
+          <img src="Images\contact1.png" />
+          <p>Conde de Peñalver 64</p>
+          <p>28006 - Madrid</p>
+        </div>
+        <div class="contact2">
+          <img src="Images\contact2.png" />
+          <p>910 258 327</p>
+        </div>
+        <div class="contact3">
+          <img src="Images\contact3.png" />
+          <p>hola@mozzabar.es</p>
+        </div>
+      </div>
+    </div>
+    <div id="siguenos">
+      <p>síguenos</p>
+      <div class="siguenosbutton">
+        <button>facebook</button>
+        <button>instagram</button>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="footerbox">
+        <section class="footerbox1">
+          <h4>enlaces de interés</h4>
+          <p>Aviso Legal</p>
+          <p>Coockies</p>
+        </section>
+        <section class="footerbox2">
+          <h4>horarios</h4>
+          <p>Lunes a Domingo</p>
+          <p>07:30 - 01:30</p>
+        </section>
+        <section class="footerbox3">
+          <h4>contacto</h4>
+          <p>C/ Conde de Peñalver 64</p>
+          <p>28006 - Madrid</p>
+          <p>910 258 327</p>
+          <p>hola@mozzabar.es</p>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
