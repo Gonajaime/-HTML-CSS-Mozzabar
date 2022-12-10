@@ -174,20 +174,41 @@ a:active {
 }
 #direccion {
   height: 58%;
+
+  background-image: url(https://th.bing.com/th/id/OIP.GrH0SKWQjNg1yRHdkoBq4AHaEK?pid=ImgDet&rs=1);
+  background-size: cover;
+
+}
+#direccion p {
+color:white;
+font-size: 1vw;
+}
+.direccionbox{
+  text-align: center;
+  height: 58%;
   background-color: rgb(36, 167, 58);
   background-image: url(https://th.bing.com/th/id/OIP.GrH0SKWQjNg1yRHdkoBq4AHaEK?pid=ImgDet&rs=1);
   background-size: cover;
   overflow: hidden;
 }
-#direccion p {
-color:white;
+.directionbox p{
+  text-transform: uppercase;
 }
-.direccionbox{
-  text-align: center;
+.direccionimg{
+  width: 137px;
+    height: 76px;
+    object-fit: none;
+    margin-top: 6%;
 }
 .contactbox{
   display: flex;
   justify-content: center;
+  justify-content: space-evenly;
+}
+.contactbox img {
+  width: 56px;
+    height: 41px;
+    object-fit: none;
 }
 #siguenos {
   height: 42%;
