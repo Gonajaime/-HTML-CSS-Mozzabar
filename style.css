@@ -34,6 +34,7 @@ a:active {
 }
 .navbar__logo {
   width: 120px;
+  padding-top: 1rem;
 }
 
 .navbarlist__item {
@@ -59,7 +60,7 @@ a:active {
 }
 .concepto-texto {
   width: 35%;
-  height: auto;
+  height: 25rem;
   text-align: center;
   background-color: rgb(0, 0, 5);
   padding: 2rem;
@@ -88,9 +89,16 @@ a:active {
   row-gap: 1rem;
   padding: 3%;
 }
+.img{
+  height: 22rem;
+  width: 29rem;
+}
+.imgEnd{
+  justify-content: center;
+}
 #carta {
   height: 100%;
-  background-color: darkolivegreen;
+  background-color: #f8f8f8;
   text-transform: uppercase;
 }
 #carta h1 {
@@ -106,9 +114,16 @@ a:active {
 .menu {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-end;
   line-height: 4rem;
   color: black;
+  height: 34rem;
+}
+.salados-precio{
+  padding: 5rem 0rem;
+}
+
+.dulces-precio{
+  padding: 5rem 2rem;
 }
 .salados,
 .salados-precio,
@@ -117,7 +132,7 @@ a:active {
 #carta h1,
 .carta-nav {
   background-color: aliceblue;
-  padding: 0% 3%;
+  padding: 1rem;
 }
 #reservas {
   height: 100%;
@@ -202,14 +217,16 @@ font-size: 1vw;
 }
 .contactbox{
   display: flex;
-  justify-content: center;
   justify-content: space-evenly;
 }
 .contactbox img {
   width: 56px;
-    height: 41px;
-    object-fit: none;
+  object-fit: none;
 }
+.contact1img{
+  height: 2.6rem;
+}
+
 #siguenos {
   height: 42%;
     background-color: rgb(255, 255, 255);
