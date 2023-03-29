@@ -100,7 +100,7 @@ a:active {
   text-decoration: underline;
   display: flex;
   justify-content: space-evenly;
-  margin: 1rem 25rem;
+  margin: 1rem;
 }
 
 .menu {
